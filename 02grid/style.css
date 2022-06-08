@@ -16,39 +16,51 @@
   display: flex;
   height: 100%;
   padding: 10px;
-  flex-wrap:  wrap;
-  
+  flex-wrap: wrap;
 }
 .div1 {
   background: red;
   max-width: 100px;
 }
 
-
 .div2 {
   background: green;
   max-width: 100px;
-
 }
 
-.div3{
+.div3 {
   background-color: aqua;
   max-width: 100px;
-
 }
 
 .padding-20 {
-  padding: 100px;}
+  padding: 100px;
+}
 
 .padding-10 {
-  padding: 10px;
+  padding: 30px;
   background: #000;
+
 }
 
 .w-33 {
   width: 33.33%;
 }
 
-.m-auto{
-  margin: auto
+.flex-d{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
 }
+
+@media screen and (max-width:700px) {
+  
+
+  
+}
+
+/* .m-auto{
+  margin: auto;
+} */

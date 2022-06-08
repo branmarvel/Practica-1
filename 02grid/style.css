@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  background: blue;
+  height: 100vh;
+}
+
+.flex {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  flex-wrap:  wrap;
+  
+}
+.div1 {
+  background: red;
+  max-width: 100px;
+}
+
+
+.div2 {
+  background: green;
+  max-width: 100px;
+
+}
+
+.div3{
+  background-color: aqua;
+  max-width: 100px;
+
+}
+
+.padding-20 {
+  padding: 100px;}
+
+.padding-10 {
+  padding: 10px;
+  background: #000;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+
+.m-auto{
+  margin: auto
+}

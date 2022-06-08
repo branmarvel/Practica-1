@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  background: blue;
+  height: 100vh;
+}
+
+.flex {
+  background-color: white;
+  display: flex;
+  height: 100%;
+   padding: 10px;
+  flex-wrap:  wrap;
+/* justify-content:center; */
+align-content: flex-start;
+  
+}
+.div1 {
+  background: red;
+  
+
+}
+
+.div2 {
+  background: green;
+
+
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-10{
+
+padding: 10px;
+background: #000;
+}
+
+.w-33{
+    width: 33.33%;
+    
+}

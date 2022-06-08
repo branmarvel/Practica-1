@@ -59,10 +59,13 @@
   .flex-d{
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
   }
   .w-33{
     width: auto;
   }
+
+
 }
 
 /* .m-auto{

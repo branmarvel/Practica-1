@@ -56,9 +56,13 @@
 }
 
 @media screen and (max-width:700px) {
-  
-
-  
+  .flex-d{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .w-33{
+    width: auto;
+  }
 }
 
 /* .m-auto{

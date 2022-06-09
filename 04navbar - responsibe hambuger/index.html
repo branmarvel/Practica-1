@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src=".\Lib\fontawesome\fontawesome.js"> </script>
+    <title>Navbar</title>
+  </head>
+  <body>
+    <section class="container">
+    <header>
+      
+        <nav class="navbar">
+          
+          <ul class= "navbar-ul">
+            <li class="logo"> Code</li>
+            <li class=" navbar-toggle"><i class="fas fa-bars"></i></li>
+            <li class="li"><a class="nav-a"  href="#">Home</a></li>
+            <li class="li"><a class="nav-a" href="#">link 1</a></li>
+            <li class="li"><a class="nav-a" href="#">link 2</a></li>
+            <li class="li"><a class="nav-a" href="#"> link 3</a></li>
+          </ul>
+        </nav>
+
+     
+    </header>
+    <main>
+
+
+    </main>
+</section>
+    <footer></footer>
+
+    <section >
+
+    </section>
+    
+<script>
+  const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+  const navbarlinks = document.getElementsByClassName('li');
+  toggleButton.addEventListener('click', function() { 
+    for (var i=0; i<navbarlinks.length; i++)
+    navbarlinks[i].classList.toggle('active');
+  })
+</script>
+  </body>
+</html>

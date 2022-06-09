@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+.container {
+  max-width: 1080px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(90, 40, 90, 0.8)),
+    url(./Assets/fondo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.navbar {
+  width: 80%;
+  padding: 30px 0px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+.nv-a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.main{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+  
+}
+.header{
+    color: white;
+   
+
+}
+
+.animacion::before{
+content: "";
+  height: 3px;
+  width: 0%;
+  background: skyblue;
+  position: absolute;
+  bottom: -12px;
+  transition: 0.8s ease-out;
+}
+
+.animacion:hover::before{
+    width: 100%;
+}
+

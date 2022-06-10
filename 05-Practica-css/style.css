@@ -7,15 +7,10 @@
 
   .container{
     max-width: 1080px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+   margin: auto;
   }
 
-  body{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+ 
 .h1{
   padding-top: 1%;
   padding-bottom: 1%;
@@ -24,12 +19,13 @@
   .nav-ul{
     list-style-type: none;
     display: flex;
+   
     
   }
   .li{
     list-style-type: none;
     padding: 1rem;
-  
+
 
   }
 .nav-a{
@@ -39,10 +35,13 @@
 .active {
   color: Black;
 }
+.navbar-toggle{
+  display: none;
+}
 
 /* imagenes */
 .img-top{
-
+  width: 100%;
 }
 
 .img-main{
@@ -56,8 +55,7 @@
 }
 
 .art{
-  padding-left: 5%;
-  padding-top: 5%;
+  padding: 20px;
 }
 .main-1{
   display: flex;
@@ -65,22 +63,35 @@
   
 }
 
+
+.columnas{
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  padding: 15px;
+  
+}
+
 .column{
   display: flex;
-  flex-flow: column wrap;
-  flex: 1;
-  border: 1px solid  #dcdcdc;
-  margin: 1%;
+  flex-flow: row wrap;
+  border: 1px solid  red;
+
+    
+
+}
+
+.p-15{
+  padding: 0px;
 }
 
 /* botones */
 .button{
     background-color: #007bff;
     border: 0px;
-    padding: 7px;
+    padding: 8px;
     border-radius: 5px;
     margin-top: 10px;
-    margin-left: 10px;
     margin-bottom: 10px;
   }
 
@@ -96,79 +107,30 @@
   color: #0c549e;
 }
   
-@media screen and (max-width:600px) {
-  
+@media screen and (max-width:800px) {
 
-  
-  
-}
-
-/* h1, p, li, h3 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-p,li{
-  color:   gray;
-}
-
-.topnav {
-padding-left: 50px;
-margin-bottom: 10px;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a.active {
-  color: Black;
-}
-
-
-
-.column {
-  float: left;
-  width: 29%;
-  border: 1px solid  #dcdcdc;
-  margin:2%;
+.columnas{
   display: block;
+  padding: 0;
+}
+
+
+
+.nav-ul{
+  flex-wrap: wrap;
   justify-content: center;
+}
+.navbar-toggle{
+  display: block;
+}
+.li {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+.active{
+display: block;
+}
+
  
 }
-
-
-
-.colum-img{
-  margin: 0px;
-
-}
-
-button{
-  background-color: #007bff;
-  border: 0px;
-  padding: 7px;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-a{
-  color: white;
-  
-  text-decoration: none;
-   
-}
-
-.footer{
-  border: 1px solid #b8daff ;
-  background-color: #d0e4fc;
-  margin-left: 3%;
-  margin-right: 2%;
-  color: #0c549e;
-} */

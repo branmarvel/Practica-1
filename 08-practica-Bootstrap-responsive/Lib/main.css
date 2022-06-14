@@ -51,6 +51,7 @@ a:hover { text-decoration: none; }
 ion-icon {
     font-size: 40px;
   }
+
 .navbar-toggler:focus{ outline: none;}
 
 #hero{
@@ -82,14 +83,14 @@ ion-icon {
 }
 
 .portfolio-container img {
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    transition: all 0.8s;
     transition: all 0.8s;
 }
 
 .portfolio-container:hover img {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transform: scale(1.2);
     transform: scale(1.2);
 }
 
